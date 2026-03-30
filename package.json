@@ -1,0 +1,25 @@
+{
+  "name": "envguard",
+  "version": "1.0.0",
+  "description": "Validate .env files against .env.example before launching your app",
+  "main": "dist/index.js",
+  "bin": {
+    "envguard": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "validation",
+    "cli",
+    "config"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.4.0"
+  }
+}
